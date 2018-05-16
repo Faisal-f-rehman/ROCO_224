@@ -1,10 +1,10 @@
-#IMPLEMENTATION WITH MATLAB AND ROS
+# IMPLEMENTATION WITH MATLAB AND ROS
 
 For demonstration purposes, as our inverse kinematics could not be resolved we decided to use motion planning with forward kinematics instead.
 
 <br><br>
 
-# ROS SETUP
+## ROS SETUP
 
 Before we could jump into matlab and create all the algorithms we had to create ROS package and nodes. This included the following files:
 
@@ -179,30 +179,30 @@ dual_motor_controller:
 <br><br>
 
 
-# MATLAB
+## MATLAB
 
 First step in Matlab was to setup ROS by creating publishers and subscribers to allow us to communicate with the servos:  
 
 				ROS initiation function
-[![](picture link)]
+![ROS INIT MATLAB](https://raw.githubusercontent.com/Faisal-f-rehman/ROCO_224/master/ManipulatorDesignProject/maths/matlab%20screenshots/ros_init.png)
 		
 <br><br>
 
 Second step was to create a function for publishing joint angles that would be easier to call recursively:  
 				Joint Angle Publisher Function
-[![](picture link)]
+![Joint angle pub](https://raw.githubusercontent.com/Faisal-f-rehman/ROCO_224/master/ManipulatorDesignProject/maths/matlab%20screenshots/ros_joint_angles.png)
 
 <br><br>
 
 Finally main.m file to recursively call the joint angle function with different joint positions for each trajectory:
 
 				main.m
-[![](picture link)]
+![main.m trajectory](https://raw.githubusercontent.com/Faisal-f-rehman/ROCO_224/master/ManipulatorDesignProject/maths/matlab%20screenshots/Motion%20Planning%20Main.png)
 
 <br><br>
 
 			
 				Demonstrational video
 
-[![](picture link)](video link)
+[![](https://raw.githubusercontent.com/Faisal-f-rehman/ROCO_224/master/ManipulatorDesignProject/media_man/youtube%20pic.PNG)](https://www.youtube.com/watch?v=rU_hAAqRPvU)
 
