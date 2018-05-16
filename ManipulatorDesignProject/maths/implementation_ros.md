@@ -189,6 +189,7 @@ First step in Matlab was to setup ROS by creating publishers and subscribers to 
 <br><br>
 
 Second step was to create a function for publishing joint angles that would be easier to call recursively:  
+
 				Joint Angle Publisher Function
 ![Joint angle pub](https://raw.githubusercontent.com/Faisal-f-rehman/ROCO_224/master/ManipulatorDesignProject/maths/matlab%20screenshots/ros_joint_angles.png)
 
