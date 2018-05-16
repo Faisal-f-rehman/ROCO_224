@@ -1,7 +1,4 @@
-
-![name](image link)
-
-# Kinematics
+# Kinematics ROCO224
 
 <br><br>
 
@@ -26,7 +23,7 @@ Unfortunately the inverse kinematics still did not produce expected or reasonabl
 			Denavit–Hartenberg Table and Homogeneous Transformations 
 
 
-![name](image link)
+![FK](https://raw.githubusercontent.com/Faisal-f-rehman/ROCO_224/master/ManipulatorDesignProject/maths/matlab%20screenshots/FKin.PNG)
 
 ## Matlab 
 **Please zoom in to read**
