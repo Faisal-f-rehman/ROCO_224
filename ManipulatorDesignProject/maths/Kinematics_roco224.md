@@ -48,5 +48,5 @@ Unfortunately the inverse kinematics still did not produce expected or reasonabl
 
 				Results
 
-[![](picture link)](video link)
+[![](https://raw.githubusercontent.com/Faisal-f-rehman/ROCO_224/master/ManipulatorDesignProject/maths/IK_youtube_pic.png)](https://www.youtube.com/watch?v=hpOUysoVidw)
 
